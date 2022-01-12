@@ -1,8 +1,9 @@
+//bb
 function myFunction() {
-  // Get the checkbox
-  var checkBox = document.getElementById("myCheck01");
+// Get the checkbox
+  var checkBox = document.getElementById("myCheck1/2562/bb");
   // Get the output text
-  var text = document.getElementById("text01");
+  var text = document.getElementById("1/2562/bb");
 
   // If the checkbox is checked, display the output text
   if (checkBox.checked == true){
@@ -11,9 +12,9 @@ function myFunction() {
     text.style.display = "none";
   }
  // Get the checkbox
- var checkBox = document.getElementById("myCheck02");
+ var checkBox = document.getElementById("myCheck2/2562/bb");
  // Get the output text
- var text = document.getElementById("text02");
+ var text = document.getElementById("2/2562/bb");
 
  // If the checkbox is checked, display the output text
  if (checkBox.checked == true){
@@ -22,9 +23,9 @@ function myFunction() {
    text.style.display = "none";
  }
 // Get the checkbox
-var checkBox = document.getElementById("myCheck03");
+var checkBox = document.getElementById("myCheck1/2563/bb");
 // Get the output text
-var text = document.getElementById("text03");
+var text = document.getElementById("1/2563/bb");
 
 // If the checkbox is checked, display the output text
 if (checkBox.checked == true){
@@ -33,9 +34,9 @@ if (checkBox.checked == true){
   text.style.display = "none";
 }
 // Get the checkbox
-var checkBox = document.getElementById("myCheck04");
+var checkBox = document.getElementById("myCheck2/2563/bb");
 // Get the output text
-var text = document.getElementById("text04");
+var text = document.getElementById("2/2563/bb");
 
 // If the checkbox is checked, display the output text
 if (checkBox.checked == true){
@@ -43,5 +44,8 @@ if (checkBox.checked == true){
 } else {
   text.style.display = "none";
 }
+
+
+
 
 }
