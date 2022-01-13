@@ -2,13 +2,22 @@
 <html>
 <head>
     <link rel="stylesheet" href="/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
 </head>
 <body>
+  <button class="button" onclick="document.location='home.html'">HOME</button>
+</br>
+</br>
   <h1>
     <p>Name : Bubble </p>
     <p>Student ID : 622115002</p>
     <p>Faculties : college of art media and technology</p>
     </h1>
+    <h1>Semester: </h1>
     <br>
     <input type="checkbox" id="myCheck1/2562/bb" onclick="myFunction()">
     <label class="container"> 1/2562
@@ -34,9 +43,9 @@
       </label>
     </br>  
 <div id="1/2562/bb" style="display:none">
-    <table>
+    <table class="table">
         <tr>
-            <th>Course</th>
+            <th class="Course">Course</th>
             <th>Credit</th>
             <th>Grade</th>
           </tr>
@@ -66,12 +75,16 @@
             <td>P</td>
           </tr>
     </table>
+    <div class="total">
+      <h5><b>Credit:</b> 11</h5>
+      <h5><b>GPA:</b>2.45</h5>
+    </div>
 </div>
 
 <div id="2/2562/bb" style="display:none">
-  <table>
+  <table class="table">
       <tr>
-          <th>Course</th>
+          <th class="Course">Course</th>
           <th>Credit</th>
           <th>Grade</th>
         </tr>
@@ -106,12 +119,16 @@
           <td>P</td>
         </tr>
   </table>
+  <div class="total">
+    <h5><b>Credit:</b>14</h5>
+    <h5><b>GPA:</b> 3.17</h5>
+  </div>
 </div>
 
 <div id="1/2563/bb" style="display:none">
-  <table>
+  <table class="table">
       <tr>
-          <th>Course</th>
+          <th class="Course">Course</th>
           <th>Credit</th>
           <th>Grade</th>
         </tr>
@@ -146,11 +163,15 @@
           <td>B</td>
         </tr>
   </table>
+  <div class="total">
+    <h5><b>Credit:</b> 17</h5>
+    <h5><b>GPA:</b> 3.52</h5>
+  </div> 
 </div>
 <div id="2/2563/bb" style="display:none">
-  <table>
+  <table class="table">
       <tr>
-          <th>Course</th>
+          <th class="Course">Course</th>
           <th>Credit</th>
           <th>Grade</th>
         </tr>
@@ -185,7 +206,13 @@
           <td>D+</td>
         </tr>
   </table>
+  <div class="total">
+    <h5><b>Credit:</b> 18</h5>
+    <h5><b>GPA:</b> 2.91</h5>
+  </div>
 </div>
+<h4><b>Total Credit:</b> 54</h4>
+<h4><b>Total GPA:</b> 3.07</h4>
 </body>
 <script src="script02.js"> </script>
 </html>
